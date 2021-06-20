@@ -1,0 +1,32 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "karma-typescript": "^5.5.1",
+    "ts-loader": "^9.2.3",
+    "webpack-livereload-plugin": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.7.7",
+    "jasmine": "^3.7.0",
+    "jasmine-core": "^3.7.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jasmine-ts": "^0.3.3",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "npx webpack --config=webpack.config.js",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC"
+}
